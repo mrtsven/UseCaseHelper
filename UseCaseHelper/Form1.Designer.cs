@@ -42,6 +42,9 @@
             this.pActor3 = new System.Windows.Forms.PictureBox();
             this.pActor2 = new System.Windows.Forms.PictureBox();
             this.pActor1 = new System.Windows.Forms.PictureBox();
+            this.lblActor1 = new System.Windows.Forms.Label();
+            this.lblActor2 = new System.Windows.Forms.Label();
+            this.lblActor3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -150,12 +153,15 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.lblActor3);
+            this.panel1.Controls.Add(this.lblActor2);
+            this.panel1.Controls.Add(this.lblActor1);
             this.panel1.Controls.Add(this.pActor3);
             this.panel1.Controls.Add(this.pActor2);
             this.panel1.Controls.Add(this.pActor1);
             this.panel1.Location = new System.Drawing.Point(12, 118);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(983, 505);
+            this.panel1.Size = new System.Drawing.Size(983, 513);
             this.panel1.TabIndex = 3;
             this.panel1.Click += new System.EventHandler(this.panel1_Click);
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
@@ -163,7 +169,7 @@
             // pActor3
             // 
             this.pActor3.Image = ((System.Drawing.Image)(resources.GetObject("pActor3.Image")));
-            this.pActor3.Location = new System.Drawing.Point(16, 353);
+            this.pActor3.Location = new System.Drawing.Point(16, 344);
             this.pActor3.Name = "pActor3";
             this.pActor3.Size = new System.Drawing.Size(126, 145);
             this.pActor3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -189,6 +195,31 @@
             this.pActor1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pActor1.TabIndex = 0;
             this.pActor1.TabStop = false;
+            this.pActor1.Click += new System.EventHandler(this.pActor1_Click);
+            // 
+            // lblActor1
+            // 
+            this.lblActor1.AutoSize = true;
+            this.lblActor1.Location = new System.Drawing.Point(55, 141);
+            this.lblActor1.Name = "lblActor1";
+            this.lblActor1.Size = new System.Drawing.Size(0, 17);
+            this.lblActor1.TabIndex = 3;
+            // 
+            // lblActor2
+            // 
+            this.lblActor2.AutoSize = true;
+            this.lblActor2.Location = new System.Drawing.Point(59, 324);
+            this.lblActor2.Name = "lblActor2";
+            this.lblActor2.Size = new System.Drawing.Size(0, 17);
+            this.lblActor2.TabIndex = 4;
+            // 
+            // lblActor3
+            // 
+            this.lblActor3.AutoSize = true;
+            this.lblActor3.Location = new System.Drawing.Point(59, 489);
+            this.lblActor3.Name = "lblActor3";
+            this.lblActor3.Size = new System.Drawing.Size(0, 17);
+            this.lblActor3.TabIndex = 5;
             // 
             // Form1
             // 
@@ -207,6 +238,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pActor3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pActor2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pActor1)).EndInit();
@@ -229,6 +261,9 @@
         private System.Windows.Forms.PictureBox pActor3;
         private System.Windows.Forms.PictureBox pActor2;
         private System.Windows.Forms.PictureBox pActor1;
+        private System.Windows.Forms.Label lblActor3;
+        private System.Windows.Forms.Label lblActor2;
+        private System.Windows.Forms.Label lblActor1;
     }
 }
 

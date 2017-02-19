@@ -8,3 +8,4 @@ C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\
 C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\bin\Debug\UseCaseHelper.pdb
 C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.exe
 C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.pdb
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.ActorName.resources

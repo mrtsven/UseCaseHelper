@@ -56,5 +56,14 @@ namespace UseCaseHelper
             }
         }
 
+        private void pActor1_Click(object sender, EventArgs e)
+        {
+            if (rbtnSelect.Checked)
+            {
+                Form actor1 = new ActorName();
+                actor1.Show();
+            }
+        }
+
     }
 }
