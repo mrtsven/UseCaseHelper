@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UseCaseHelper.Properties
+namespace UseCaseHelper.Props
 {
 
 

@@ -1,1 +1,10 @@
 c:\users\sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\bin\Debug\UseCaseHelper.exe.config
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.csprojResolveAssemblyReference.cache
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.Form1.resources
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.Properties.resources
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.Properties.Resources.resources
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.csproj.GenerateResource.Cache
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\bin\Debug\UseCaseHelper.exe
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\bin\Debug\UseCaseHelper.pdb
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.exe
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.pdb

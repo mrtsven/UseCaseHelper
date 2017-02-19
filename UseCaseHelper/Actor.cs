@@ -10,5 +10,7 @@ namespace UseCaseHelper
     {
         string name;
         int id;
+
     }
+
 }
