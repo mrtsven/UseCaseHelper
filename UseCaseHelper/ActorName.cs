@@ -24,7 +24,7 @@ namespace UseCaseHelper
             try
             {
                 actorName.setName(txtActorName.Text);
-                this.Dispose();
+                this.Hide();
             }
             catch(Exception ex){
                 MessageBox.Show(ex.Message);

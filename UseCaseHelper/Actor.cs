@@ -8,7 +8,13 @@ namespace UseCaseHelper
 {
     public class Actor
     {
-        public string name;
+        private int id;
+        private string name;
+
+        public Actor(int id, string name)
+        {
+
+        }
 
         public string getName(){
             return name;
@@ -16,7 +22,12 @@ namespace UseCaseHelper
 
         public void setName(string nameSet)
         {
-            nameSet = name;
+            name = nameSet;
+        }
+
+        public int getID()
+        {
+            return id;
         }
     }
 
