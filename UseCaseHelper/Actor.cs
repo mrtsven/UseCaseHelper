@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace UseCaseHelper
 {
-    class Actor
+    public class Actor
     {
-        string name;
-        int id;
+        public string name;
 
+        public string getName(){
+            return name;
+        }
+
+        public void setName(string nameSet)
+        {
+            nameSet = name;
+        }
     }
 
 }

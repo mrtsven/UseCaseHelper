@@ -39,12 +39,12 @@
             this.btnClearAll = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblActor3 = new System.Windows.Forms.Label();
+            this.lblActor2 = new System.Windows.Forms.Label();
+            this.lblActor1 = new System.Windows.Forms.Label();
             this.pActor3 = new System.Windows.Forms.PictureBox();
             this.pActor2 = new System.Windows.Forms.PictureBox();
             this.pActor1 = new System.Windows.Forms.PictureBox();
-            this.lblActor1 = new System.Windows.Forms.Label();
-            this.lblActor2 = new System.Windows.Forms.Label();
-            this.lblActor3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -166,44 +166,13 @@
             this.panel1.Click += new System.EventHandler(this.panel1_Click);
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // pActor3
+            // lblActor3
             // 
-            this.pActor3.Image = ((System.Drawing.Image)(resources.GetObject("pActor3.Image")));
-            this.pActor3.Location = new System.Drawing.Point(16, 344);
-            this.pActor3.Name = "pActor3";
-            this.pActor3.Size = new System.Drawing.Size(126, 145);
-            this.pActor3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pActor3.TabIndex = 2;
-            this.pActor3.TabStop = false;
-            // 
-            // pActor2
-            // 
-            this.pActor2.Image = ((System.Drawing.Image)(resources.GetObject("pActor2.Image")));
-            this.pActor2.Location = new System.Drawing.Point(16, 192);
-            this.pActor2.Name = "pActor2";
-            this.pActor2.Size = new System.Drawing.Size(126, 129);
-            this.pActor2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pActor2.TabIndex = 1;
-            this.pActor2.TabStop = false;
-            // 
-            // pActor1
-            // 
-            this.pActor1.Image = ((System.Drawing.Image)(resources.GetObject("pActor1.Image")));
-            this.pActor1.Location = new System.Drawing.Point(16, 21);
-            this.pActor1.Name = "pActor1";
-            this.pActor1.Size = new System.Drawing.Size(126, 117);
-            this.pActor1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pActor1.TabIndex = 0;
-            this.pActor1.TabStop = false;
-            this.pActor1.Click += new System.EventHandler(this.pActor1_Click);
-            // 
-            // lblActor1
-            // 
-            this.lblActor1.AutoSize = true;
-            this.lblActor1.Location = new System.Drawing.Point(55, 141);
-            this.lblActor1.Name = "lblActor1";
-            this.lblActor1.Size = new System.Drawing.Size(0, 17);
-            this.lblActor1.TabIndex = 3;
+            this.lblActor3.AutoSize = true;
+            this.lblActor3.Location = new System.Drawing.Point(59, 489);
+            this.lblActor3.Name = "lblActor3";
+            this.lblActor3.Size = new System.Drawing.Size(0, 17);
+            this.lblActor3.TabIndex = 5;
             // 
             // lblActor2
             // 
@@ -213,13 +182,45 @@
             this.lblActor2.Size = new System.Drawing.Size(0, 17);
             this.lblActor2.TabIndex = 4;
             // 
-            // lblActor3
+            // lblActor1
             // 
-            this.lblActor3.AutoSize = true;
-            this.lblActor3.Location = new System.Drawing.Point(59, 489);
-            this.lblActor3.Name = "lblActor3";
-            this.lblActor3.Size = new System.Drawing.Size(0, 17);
-            this.lblActor3.TabIndex = 5;
+            this.lblActor1.AutoSize = true;
+            this.lblActor1.Location = new System.Drawing.Point(41, 141);
+            this.lblActor1.Name = "lblActor1";
+            this.lblActor1.Size = new System.Drawing.Size(75, 17);
+            this.lblActor1.TabIndex = 3;
+            this.lblActor1.Text = "Something";
+            // 
+            // pActor3
+            // 
+            this.pActor3.Image = ((System.Drawing.Image)(resources.GetObject("pActor3.Image")));
+            this.pActor3.Location = new System.Drawing.Point(16, 344);
+            this.pActor3.Name = "pActor3";
+            this.pActor3.Size = new System.Drawing.Size(126, 145);
+            this.pActor3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pActor3.TabIndex = 2;
+            this.pActor3.TabStop = false;
+            // 
+            // pActor2
+            // 
+            this.pActor2.Image = ((System.Drawing.Image)(resources.GetObject("pActor2.Image")));
+            this.pActor2.Location = new System.Drawing.Point(16, 192);
+            this.pActor2.Name = "pActor2";
+            this.pActor2.Size = new System.Drawing.Size(126, 129);
+            this.pActor2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pActor2.TabIndex = 1;
+            this.pActor2.TabStop = false;
+            // 
+            // pActor1
+            // 
+            this.pActor1.Image = ((System.Drawing.Image)(resources.GetObject("pActor1.Image")));
+            this.pActor1.Location = new System.Drawing.Point(16, 21);
+            this.pActor1.Name = "pActor1";
+            this.pActor1.Size = new System.Drawing.Size(126, 117);
+            this.pActor1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pActor1.TabIndex = 0;
+            this.pActor1.TabStop = false;
+            this.pActor1.Click += new System.EventHandler(this.pActor1_Click);
             // 
             // Form1
             // 

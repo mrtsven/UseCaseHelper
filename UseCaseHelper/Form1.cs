@@ -17,6 +17,7 @@ namespace UseCaseHelper
         int i;
         List<Actor> actorList = new List<Actor>();
         List<UseCase> useCaseList = new List<UseCase>();
+        Actor actors = new Actor();
 
         public Form1()
         {
@@ -60,9 +61,10 @@ namespace UseCaseHelper
         {
             if (rbtnSelect.Checked)
             {
-                Form actor1 = new ActorName();
-                actor1.Show();
+                ActorName frm = new ActorName();                
+                frm.Show();
             }
+            lblActor1.Text = actors.getName();
         }
 
     }
