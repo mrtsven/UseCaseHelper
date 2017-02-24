@@ -13,10 +13,12 @@ namespace UseCaseHelper
     public partial class ActorName : Form
     {
 
-
+        Form1 mainfrm;
+        
         public ActorName(Form1 mainfrm)
         {
             InitializeComponent();
+            this.mainfrm = mainfrm;
         }
 
         private void btnOke_Click(object sender, EventArgs e)
@@ -24,6 +26,7 @@ namespace UseCaseHelper
             try
             {
                 Actor actor = new Actor(txtActorName.Text);
+                mainfrm.voegActorToe(actor);
                 this.Dispose();
             }
             catch(Exception ex){

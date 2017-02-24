@@ -15,8 +15,10 @@ namespace UseCaseHelper
         int y;
         int x;
         int i;
+        int actorAmount = 0;
         List<UseCase> useCaseList = new List<UseCase>();
         List<Actor> actorList = new List<Actor>();
+        List<Label> actorLabels;
 
         public Form1()
         {
@@ -24,6 +26,12 @@ namespace UseCaseHelper
             pActor1.Visible = false;
             pActor2.Visible = false;
             pActor3.Visible = false;
+
+            //Voeg labels toe aan lijst
+            actorLabels = new List<Label>();
+            actorLabels.Add(lblActor1);
+            actorLabels.Add(lblActor2);
+            actorLabels.Add(lblActor3);
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -60,10 +68,46 @@ namespace UseCaseHelper
             if (rbtnSelect.Checked)
             {
                 ActorName frm = new ActorName(this);
-                frm.Show();
+                frm.ShowDialog();
             }
-            
         }
+
+        private void pActor2_Click(object sender, EventArgs e)
+        {
+            if (rbtnSelect.Checked)
+            {
+                ActorName frm = new ActorName(this);
+                frm.ShowDialog();
+            }
+        }
+
+        private void pActor3_Click(object sender, EventArgs e)
+        {
+            if (rbtnSelect.Checked)
+            {
+                ActorName frm = new ActorName(this);
+                frm.ShowDialog();
+            }
+        }
+
+        public void voegActorToe(Actor actor)
+        {
+            actorList.Add(actor);
+            actorLabels[actorAmount].Text = actor.getName();
+            actorLabels[actorAmount].Click += labelClick;
+            actorLabels[actorAmount].Tag = actor;
+
+            actorAmount++;
+        }
+
+        void labelClick(object sender, EventArgs e)
+        {
+            Label lbl = sender as Label;
+            Actor actor = (Actor)lbl.Tag;
+            EditActorName editActor = new EditActorName(lbl, actor);
+            editActor.ShowDialog();
+        }
+
 
     }
 }

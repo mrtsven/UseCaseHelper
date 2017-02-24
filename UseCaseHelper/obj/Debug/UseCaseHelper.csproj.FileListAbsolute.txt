@@ -9,3 +9,4 @@ C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\
 C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.pdb
 C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.ActorName.resources
 C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.csprojResolveAssemblyReference.cache
+C:\Users\Sven\documents\visual studio 2013\Projects\UseCaseHelper\UseCaseHelper\obj\Debug\UseCaseHelper.EditActorName.resources

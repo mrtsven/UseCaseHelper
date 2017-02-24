@@ -187,9 +187,8 @@
             this.lblActor1.AutoSize = true;
             this.lblActor1.Location = new System.Drawing.Point(41, 141);
             this.lblActor1.Name = "lblActor1";
-            this.lblActor1.Size = new System.Drawing.Size(75, 17);
+            this.lblActor1.Size = new System.Drawing.Size(0, 17);
             this.lblActor1.TabIndex = 3;
-            this.lblActor1.Text = "Something";
             // 
             // pActor3
             // 
@@ -200,6 +199,7 @@
             this.pActor3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pActor3.TabIndex = 2;
             this.pActor3.TabStop = false;
+            this.pActor3.Click += new System.EventHandler(this.pActor3_Click);
             // 
             // pActor2
             // 
@@ -210,6 +210,7 @@
             this.pActor2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pActor2.TabIndex = 1;
             this.pActor2.TabStop = false;
+            this.pActor2.Click += new System.EventHandler(this.pActor2_Click);
             // 
             // pActor1
             // 

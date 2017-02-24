@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BED9A9B3-3E44-476B-932A-CDD9A7DAFA2A}</ProjectGuid>
+    <ProjectGuid>{D31D9841-840A-4EFA-A3CD-3C8AAEE2EE7A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UseCaseHelper</RootNamespace>
-    <AssemblyName>UseCaseHelper</AssemblyName>
+    <RootNamespace>EditActorName</RootNamespace>
+    <AssemblyName>EditActorName</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,46 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Actor.cs" />
-    <Compile Include="ActorName.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ActorName.Designer.cs">
-      <DependentUpon>ActorName.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EditActorName.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditActorName.Designer.cs">
-      <DependentUpon>EditActorName.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Line.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Properties.Designer.cs">
-      <DependentUpon>Properties.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UseCase.cs" />
-    <EmbeddedResource Include="ActorName.resx">
-      <DependentUpon>ActorName.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditActorName.resx">
-      <DependentUpon>EditActorName.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties.resx">
-      <DependentUpon>Properties.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
