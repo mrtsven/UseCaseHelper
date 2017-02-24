@@ -39,7 +39,6 @@ namespace UseCaseHelper
                 if (this.i < 4)
                 {
                     i++;
-                    actorList.Add(new Actor(0, ""));
                     if (i == 1)
                     {
                         pActor1.Visible = true;
@@ -60,9 +59,7 @@ namespace UseCaseHelper
         {
             if (rbtnSelect.Checked)
             {
-                Actor actor1 = new Actor(1, lblActor1.Text);
-                ActorName frm = new ActorName();
-                lblActor1.Text = actor1.getName();
+                ActorName frm = new ActorName(this);
                 frm.Show();
             }
             

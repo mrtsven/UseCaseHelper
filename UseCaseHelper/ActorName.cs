@@ -12,9 +12,9 @@ namespace UseCaseHelper
 {
     public partial class ActorName : Form
     {
-        public Actor actorName = new Actor();
 
-        public ActorName()
+
+        public ActorName(Form1 mainfrm)
         {
             InitializeComponent();
         }
@@ -23,8 +23,8 @@ namespace UseCaseHelper
         {
             try
             {
-                actorName.setName(txtActorName.Text);
-                this.Hide();
+                Actor actor = new Actor(txtActorName.Text);
+                this.Dispose();
             }
             catch(Exception ex){
                 MessageBox.Show(ex.Message);

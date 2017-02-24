@@ -11,9 +11,9 @@ namespace UseCaseHelper
         private int id;
         private string name;
 
-        public Actor(int id, string name)
+        public Actor(string NAME)
         {
-
+            name = NAME;
         }
 
         public string getName(){
